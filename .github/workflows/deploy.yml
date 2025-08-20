@@ -1,4 +1,4 @@
-name: Deploy to EC2
+name: seorin_ssu
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_IMAGE: ssu-flask-app
+  DOCKER_IMAGE: seorin_ssu
   DOCKER_TAG: latest
-  DOCKER_USERNAME: hit1414
+  DOCKER_USERNAME: seorin26
   SSH_USER: ssuuser
   SSH_PASSWORD: ssupassword20250820ec2user
   SERVER_IP: 3.35.69.129
