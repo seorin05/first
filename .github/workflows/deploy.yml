@@ -12,7 +12,7 @@ env:
   SSH_USER: ssuuser
   SSH_PASSWORD: ssupassword20250820ec2user
   SERVER_IP: 3.35.69.129
-  HOST_PORT: 8500
+  HOST_PORT: 8589
 
 jobs:
   build-and-push:
